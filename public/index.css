@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+.header-section {
+    margin: 0 10px;
+}
+
+.header-section a {
+    text-align: center;
+    text-decoration: none; 
+    letter-spacing: 1px;
+    margin: 0 5px;
+    color: black;
+}
+
+.header-brand {
+    font-size: 2rem;
+}
+
+.header-brand:hover {
+    color: grey;
+}
+
+.header-invisible:hover, .header-hover:hover {
+    color: #ff6969;
+}
+
+.image-block {
+    background: url('./bed-coverpic.jpg') no-repeat center center/cover;
+    height: 350px;
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-block h2, p, a {
+    padding: 0;
+    margin-left: 2rem;
+}
+
+.image-block h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0.05rem;
+}
+
+.image-block p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 110%;
+}
+
+.body-section a {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    height: 10px;
+    letter-spacing: .85px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 80%;
+    width: 35px;
+}
+
+.body-section .button:hover {
+    background-color: white;
+    color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 350px));
+    max-width: 90%;
+    min-width: 80%;
+    grid-gap: 35px;
+    margin-bottom: 60px;
+}
+
+.grid-shot {
+    display: flex;
+    justify-content: center
+}
+
+.grid-img {
+    background-color: grey;
+    height: 250px;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+}
+
+.grid-img .shopnow-button {
+    background-color: #ff6969;
+    color: white;
+    border: none;
+    text-decoration: none;
+    height: 10px;
+    width: auto;
+    margin-left: 0;
+    margin-bottom: 5%;
+    align-self: flex-end;
+}
+
+.grid-img .shopnow-button:hover {
+    background-color: white;
+    color: #ff6969;
+}
+
+.pic1 {
+    background: url('./shop1.jpg') no-repeat center center/cover;
+}
+
+.pic2 {
+    background: url('./shop2.jpg') no-repeat center center/cover;
+}
+
+.pic3 {
+    background: url('./shop3.jpg') no-repeat center center/cover;
+}
+
+
+
+
+
+@media (min-width: 930px) {
+
+    .header-visible {
+        display: none;
+    }
+
+}
+
+@media (max-width: 930px) {
+
+    .header-invisible {
+        display: none;
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-img {
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media (max-width: 540px) {
+    
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .header-brand {
+        font-size: 1.5rem;
+    }
+    
+}
