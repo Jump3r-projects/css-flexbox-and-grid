@@ -2,8 +2,9 @@
   "name": "baedshop",
   "version": "1.0.0",
   "description": "Sample Landing page with CSS3 & media queries",
-  "main": "index.html",
+  "main": "server.js",
   "dependencies": {
+    "express": "^4.16.4",
     "heroku": "^7.22.9"
   },
   "devDependencies": {},
