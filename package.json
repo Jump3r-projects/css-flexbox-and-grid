@@ -2,7 +2,7 @@
   "name": "baedshop",
   "version": "1.0.0",
   "description": "Sample Landing page with CSS3 & media queries",
-  "main": "index.php",
+  "main": "index.html",
   "dependencies": {
     "heroku": "^7.22.9"
   },
