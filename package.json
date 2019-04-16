@@ -1,0 +1,23 @@
+{
+  "name": "baedshop",
+  "version": "1.0.0",
+  "description": "Sample Landing page with CSS3 & media queries",
+  "main": "index.js",
+  "dependencies": {
+    "heroku": "^7.22.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jump3r-projects/css-flexbox-and-grid.git"
+  },
+  "author": "jump3rprojects",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jump3r-projects/css-flexbox-and-grid/issues"
+  },
+  "homepage": "https://github.com/Jump3r-projects/css-flexbox-and-grid#readme"
+}
